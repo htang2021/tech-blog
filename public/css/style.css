@@ -12,7 +12,10 @@ color: #333;
 
 a {
 text-decoration: none;
-color: #225ca3;
+color: #21241c;  /* Font color for header h1 */
+padding: 10px;
+margin: 10px;
+background-color: #ced3c3;
 font-weight: bold;
 transition: color .1s;
 }
@@ -22,7 +25,8 @@ color: #3486eb;
 }
 
 button {
-background-color: #225ca3;
+/* background-color: #3486eb; */
+background-color: #ced3c3;
 border: 0;
 padding: 1%;
 color: white;
@@ -75,20 +79,19 @@ flex-direction: column;
 }
 
 header {
-border-bottom: 1px solid #ccc;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 1%;
+background-color: rgb(48, 45, 45);
+height: 110px;
 }
 
 header h1 {
-font-size: 1em;
+font-size: 2em;
+padding: 10px;
 }
 
 main {
 flex: 1;
 padding: 2% 4%;
+background-color: #ced3c3;
 }
 
 .btn-no-style {
@@ -97,11 +100,13 @@ border: none;
 padding: 0;
 cursor: pointer;
 text-decoration: none;
-color: #225ca3;
+color: #ced3c3;
+/* color: #225ca3; */
 font-size: 100%;
 font-weight: bold;
 transition: color .1s;
-margin-left: 16px;
+margin-left: 20px;
+margin-top: 10px;
 }
 
 .btn-no-style:hover {
@@ -131,15 +136,6 @@ color: #7d7d7d;
 .edit-link {
 display: block;
 margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-background-color: #197d0f;
-transition: background-color .1s;
-}
-
-.upvote-btn:hover {
-background-color: #1f9c13;
 }
 
 .comment-form {
